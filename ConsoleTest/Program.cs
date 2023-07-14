@@ -8,25 +8,36 @@ if (args.Length < 2)
 }
 else
 {
-    CheckFile a = new CheckFile(args[0]);
-    CheckFile b = new CheckFile(args[1]);
+	try
+	{
+        CheckFile a = new CheckFile(args[0]);
+        CheckFile b = new CheckFile(args[1]);
 
 
-    if (a.Checksum == b.Checksum)
-    {
-        Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine("File hashes match");
-        Console.WriteLine($"File hash: {a.Checksum}");
-        Console.ForegroundColor = ConsoleColor.White;
+        if (a.Checksum == b.Checksum)
+        {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine("File hashes match");
+            Console.WriteLine($"File hash: {a.Checksum}");
+            Console.ForegroundColor = ConsoleColor.White;
 
+        }
+        else
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("File hashes do not match");
+            Console.WriteLine($"File A Hash: {a.Checksum}");
+            Console.WriteLine($"File B Hash: {b.Checksum}");
+            Console.ForegroundColor = ConsoleColor.White;
+        }
     }
-    else
+	catch (FileNotFoundException)
+	{
+        Console.WriteLine("Could not find one of files");
+	}
+    catch(Exception)
     {
-        Console.ForegroundColor = ConsoleColor.Red;
-        Console.WriteLine("File hashes do not match");
-        Console.WriteLine($"File A Hash: {a.Checksum}");
-        Console.WriteLine($"File B Hash: {b.Checksum}");
-        Console.ForegroundColor = ConsoleColor.White;
+        Console.WriteLine("An unknown error occurred");
     }
 
 }
