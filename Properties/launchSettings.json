@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SHA256_Checksum": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\Simpboy\\Documents\\Test\\Test.txt\r\nC:\\Users\\Simpboy\\Documents\\Test\\Test.txt"
+    }
+  }
+}
