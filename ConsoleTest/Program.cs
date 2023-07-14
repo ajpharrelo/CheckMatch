@@ -3,7 +3,7 @@
 if (args.Length < 2)
 {
     Console.WriteLine("Not enough arguments");
-    Console.WriteLine("\nCorrect usage\n---------\nArgument 1: File a\nArgument 2: File B");
+    Console.WriteLine("\nCorrect usage\n----------------\ncheckmatch.exe FILE_A_PATH FILE_B_PATH");
     return;
 }
 else
