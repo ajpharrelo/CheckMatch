@@ -1,0 +1,14 @@
+SHA256 Checksum requirements
+
+
+Functional requirements
+--------------------
+- Input file to check
+- SHA256 checksum to output
+
+
+Non Functional requirements
+---------------------
+- File size limit
+- Two or more input files to match checksums 
+and then produce result (true/false) if checksums match or not
