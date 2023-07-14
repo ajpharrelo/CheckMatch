@@ -5,8 +5,6 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SHA256_Checksum", "SHA256_Checksum.csproj", "{275BBB20-3C53-4F0D-A8F2-C0966C45F988}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{F4AB3C6C-7500-43A8-AB56-5BA964405FEC}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{275BBB20-3C53-4F0D-A8F2-C0966C45F988}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{275BBB20-3C53-4F0D-A8F2-C0966C45F988}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{275BBB20-3C53-4F0D-A8F2-C0966C45F988}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F4AB3C6C-7500-43A8-AB56-5BA964405FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F4AB3C6C-7500-43A8-AB56-5BA964405FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F4AB3C6C-7500-43A8-AB56-5BA964405FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F4AB3C6C-7500-43A8-AB56-5BA964405FEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
