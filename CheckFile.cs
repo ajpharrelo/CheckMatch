@@ -1,4 +1,4 @@
-﻿namespace SHA256_Checksum.Model
+﻿namespace SHA256_Checksum
 {
     public class CheckFile
     {
@@ -17,7 +17,7 @@
 
         public string GetFileChecksum()
         {
-            if(Checksum != null)
+            if (Checksum != null)
                 return Checksum;
 
             return "";
