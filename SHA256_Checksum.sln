@@ -5,9 +5,9 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SHA256_Checksum", "SHA256_Checksum.csproj", "{275BBB20-3C53-4F0D-A8F2-C0966C45F988}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckMatch", "ConsoleTest\CheckMatch.csproj", "{C00A8C4B-DE77-4F55-88B1-0E341B28CF7E}"
-EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "CheckMatchWizard", "..\CheckMatchWizard\CheckMatchWizard.vdproj", "{68FA1F60-B648-447D-ADF7-3C42066A7E93}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckMatch", "CheckMatch\CheckMatch.csproj", "{002C02C1-C21E-42E5-8932-83F0D0BDBED2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,12 +19,12 @@ Global
 		{275BBB20-3C53-4F0D-A8F2-C0966C45F988}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{275BBB20-3C53-4F0D-A8F2-C0966C45F988}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{275BBB20-3C53-4F0D-A8F2-C0966C45F988}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C00A8C4B-DE77-4F55-88B1-0E341B28CF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C00A8C4B-DE77-4F55-88B1-0E341B28CF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C00A8C4B-DE77-4F55-88B1-0E341B28CF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C00A8C4B-DE77-4F55-88B1-0E341B28CF7E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{68FA1F60-B648-447D-ADF7-3C42066A7E93}.Debug|Any CPU.ActiveCfg = Debug
 		{68FA1F60-B648-447D-ADF7-3C42066A7E93}.Release|Any CPU.ActiveCfg = Release
+		{002C02C1-C21E-42E5-8932-83F0D0BDBED2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{002C02C1-C21E-42E5-8932-83F0D0BDBED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{002C02C1-C21E-42E5-8932-83F0D0BDBED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{002C02C1-C21E-42E5-8932-83F0D0BDBED2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
